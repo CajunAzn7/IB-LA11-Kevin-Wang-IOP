@@ -1,0 +1,85 @@
+#menu {
+    left: 0;
+    position: fixed;
+    margin: 0;
+    height: 5rem;
+    z-index: 2;
+    width:100%;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    left: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+#menu li {
+    height: 100%;
+    width:20%;
+    float: left;
+    text-align: center;
+}
+
+#menu li a {
+    width:80%;
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 11%;
+    text-decoration: none;
+    background-size: 100% 200%;
+    background-image: linear-gradient(to top, #0099ff 50%, #333 50%);
+    -webkit-transition: background-position .5s;
+    -moz-transition: background-position .5s;
+    transition: background-position .5s;
+}
+
+#menu li a:hover {
+    background-position: 0 100%;
+    cursor:pointer;
+}
+
+.top{
+    top: 4rem;
+	position:relative;
+}
+
+.text{
+    text-align: center;
+    font-size: 5em;
+    position: relative;
+}
+
+.quote{
+    display: inline-block;
+    text-align: left;
+}
+
+.slide{
+    text-align: center;
+}
+
+.long{
+    font-size: 1.5em;
+}
+
+.short{
+    font-size: 3em;
+    
+}
+
+.medium{
+    font-size: 2em;
+}
+
+#thesis{
+    text-align: center;
+    font-size: 2em;
+}
+
+.fal{
+    width: 80%;
+}
