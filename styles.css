@@ -2,6 +2,7 @@
 #menu {
     left: 0;
     position: fixed;
+    padding: 0;
     margin: 0;
     height: 5rem;
     z-index: 2;
